@@ -150,3 +150,85 @@ with open(file_to_load) as election_data:
     # Print the header row, to verify that we are skipping the headers.
     headers = next(file_reader)
     print(headers)
+    
+
+#######################################################################
+
+#Using election_results.csv file, get the total votes
+# 1. Add the dependencies
+
+import csv
+import os
+
+# 2. Assign a variable to load a file from a path
+
+file_to_load=os.path.join("..","Resources", "election_results.csv")
+
+# 3. Assign a variable to save the file to a path
+
+file_to_save= os.path.join('..', 'analysis', 'election_analysis.txt')
+
+# 4. Open the election results and read the file. 
+# 4.1 Read the header row
+# 4.2 Print each row in the csv file
+
+with open (file_to_load) as election_data:
+    file_reader =csv.reader(election_data)
+    headers = next(file_reader)
+    for row in file_reader:
+        print(row)
+
+#########################################################################
+#To count up all the votes, we need to initialize a variable, called an accumulator.
+# the accumalator will increment by 1 as we read each row in the for loop. 
+#For convenience, we will initialize a variable called total_votes to zero.
+# 1. Add the total vot counter before the with open () statement
+# 2. Open the elections results and read the file with open () 
+# 3. Increment the total_votes by 1 after the for() loop
+# 4. Print out the total votes
+
+
+import csv
+import os
+
+file_to_load= os.path.join("..","Resources", "election_results.csv")
+file_to_save= os.path.join('..', 'analysis', 'election_analysis.txt')
+
+total_votes = 0
+
+with open (file_to_load) as election_data:
+    file_reader =csv.reader(election_data)
+    headers = next(file_reader)
+    
+    
+    for row in file_reader:
+        total_votes += 1
+        
+        print(total_votes)
+
+##########################################################################
+#To get the Candidate in the election
+
+    import csv
+    import os
+
+    file_to_load= os.path.join("..","Resources", "election_results.csv")
+    file_to_save= os.path.join('..', 'analysis', 'election_analysis.txt')
+
+    total_votes=0
+    candidates_options = []
+  
+  
+    
+    with open (file_to_load) as election_data:
+        file_reader =csv.reader(election_data)
+        headers = next(file_reader)
+        
+        
+        for row in file_reader:
+            total_votes += 1
+            candidate_name = (row [2])
+            candidates_options.append(candidate_name)
+            print (candidates_options)
+          
+            
