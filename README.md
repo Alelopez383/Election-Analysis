@@ -32,8 +32,9 @@ Largest County Turnout: Denver
 Winner: Denver
 Winning Vote Count: 306,055
 Winning Percentage: 82.8%
+
 analysis/code_county.py
-<su> Note: I use the next file for obtaining these results: "Analysis/code county.py" </sub>
+
 
 5-Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 -------------------------
