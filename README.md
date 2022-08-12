@@ -1,46 +1,47 @@
-#**Election-Analysis**
+**Election-Analysis**
 -----------------------
 Election auditing of the tabulated results for US Congressional precint of Colorado using Python and Spyder Code Editor.
 
 
-#**Overview of Election Audit:** 
+**Overview of Election Audit:** 
 -----------------------
 The purpose of the study in question is to audit the votes of the US Congressional precint of Colorado election. With this analysis, we want to confirm and give certainty of the results, regardless of the winner.
 
 In addition, we seek to find a simple and effective way to count votes with a high level of confidence in the results; for this, a code is ought that can be replicated in other parliamentary elections.
 
-#**Election-Audit Results:**
+**Election-Audit Results:**
 -----------------------
 After a long work writing the code for the electoral audit, the following results were obtained the next results:
 
--How many votes were cast in this congressional election?
+1-How many votes were cast in this congressional election?
 -----------------------
 There were 369,711 votes.
 
--Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+2-Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 -----------------------
 Jefferson: 10.5% (38,855)
 Denver: 82.8% (306,055)
 Arapahoe: 6.7% (24,801)
 
--Which county had the largest number of votes?
+3-Which county had the largest number of votes?
 -----------------------
 Largest County Turnout: Denver
 
--Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+4-Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 -------------------------
 Winner: Denver
 Winning Vote Count: 306,055
 Winning Percentage: 82.8%
 <Note: I use the next files: code county.py for the county votes>
 
--Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+5-Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 -------------------------
 Winner: Diana DeGette
 Winning Vote Count: 272,892
 Winning Percentage: 73.8%
 
 **Election-Audit Summary:**
+-----------------------
 In the end, the winner was Diana DeGette with 73.8% of the total votes.
 
 One of the purposes of the work carried out in this electoral audit is that it can be replicated in other congresses in other states. Before showing the general code, it is necessary to specify certain rules to follow. First of all, it is very important to know the directory of the file where the information to be audited is located. Second, Python has the advantage of reading almost any kind of database, just checking that we have the command to download it, if not, we can just import the library to our code editor. Third, take care of the indentation in the code. Remember that after each : , the following line must be indented.
