@@ -29,11 +29,10 @@ Largest County Turnout: Denver
 
 4-Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 -------------------------
-Winner: Denver
-Winning Vote Count: 306,055
-Winning Percentage: 82.8%
 
-analysis/code_county.py
+Charles Casper Stockham: 23.0% (85,213)
+Diana DeGette: 73.8% (272,892)
+Raymon Anthony Doane: 3.1% (11,606)
 
 
 5-Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
@@ -125,5 +124,5 @@ with open(file_to_save, "w") as txt_file:
     # Save the winning candidate's name to the text file
      txt_file.write(winning_candidate_summary)
 
-###Its seems a lot of coding but if we have the files, is going to run very fast.
+#Its seems a lot of coding but if we have the files, is going to run very fast.
 
