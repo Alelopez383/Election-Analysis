@@ -1,13 +1,16 @@
 #**Election-Analysis**
+-----------------------
 Election auditing of the tabulated results for US Congressional precint of Colorado using Python and Spyder Code Editor.
 
 
 #**Overview of Election Audit:** 
+-----------------------
 The purpose of the study in question is to audit the votes of the US Congressional precint of Colorado election. With this analysis, we want to confirm and give certainty of the results, regardless of the winner.
 
 In addition, we seek to find a simple and effective way to count votes with a high level of confidence in the results; for this, a code is ought that can be replicated in other parliamentary elections.
 
 #**Election-Audit Results:**
+-----------------------
 After a long work writing the code for the electoral audit, the following results were obtained the next results:
 
 -How many votes were cast in this congressional election?
