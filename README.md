@@ -32,18 +32,17 @@ Largest County Turnout: Denver
 Winner: Denver
 Winning Vote Count: 306,055
 Winning Percentage: 82.8%
-<Note: I use the next files: code county.py for the county votes>
+<su> Note: I use the next file for obtaining these results: "Analysis/code county.py" </sub>
 
 5-Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 -------------------------
+In the end, the winner was Diana DeGette with 73.8% of the total votes.
 Winner: Diana DeGette
 Winning Vote Count: 272,892
 Winning Percentage: 73.8%
 
 **Election-Audit Summary:**
 -----------------------
-In the end, the winner was Diana DeGette with 73.8% of the total votes.
-
 One of the purposes of the work carried out in this electoral audit is that it can be replicated in other congresses in other states. Before showing the general code, it is necessary to specify certain rules to follow. First of all, it is very important to know the directory of the file where the information to be audited is located. Second, Python has the advantage of reading almost any kind of database, just checking that we have the command to download it, if not, we can just import the library to our code editor. Third, take care of the indentation in the code. Remember that after each : , the following line must be indented.
 
 Now, the code model:
